@@ -1,0 +1,46 @@
+{
+  "name": "thing-device",
+  "version": "1.0.1",
+  "description": "thing device",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers ts:ts-node/register src/test/**/*.test.ts",
+    "start": "gulp server",
+    "dev": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/origox/thing-device.git"
+  },
+  "author": "origox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/origox/thing-device/issues"
+  },
+  "homepage": "https://github.com/origox/thing-device#readme",
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.13",
+    "@types/onoff": "0.0.27",
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-typescript": "^3.1.6",
+    "mocha": "^3.2.0",
+    "ts-node": "^3.0.2",
+    "tslint": "^4.5.0",
+    "tslint-microsoft-contrib": "^4.0.1",
+    "typescript": "^2.2.2",
+    "typings": "^2.1.1"
+  },
+  "dependencies": {
+    "firebase-admin": "^4.2.1"
+  },
+  "optionalDependencies": {
+    "node-dht-sensor": "^0.0.32",
+    "onoff": "^1.1.2"
+  }
+}

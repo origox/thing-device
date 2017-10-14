@@ -1,0 +1,6 @@
+# emacs tmp files
+*~
+
+# node
+node_modules
+dist
